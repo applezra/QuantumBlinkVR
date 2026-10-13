@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
+  "enabled": true,
+  "settings": {
+    "lookDownCutoff": {
+      "type": "slider",
+      "title": "Gaze blink cut-off",
+      "tooltip": "Looking down can make the eye cameras see a blink that didn't happen. Slide right if real blinks get missed when you look down. Slide left if looking down causes false blinks.",
+      "min": 7,
+      "max": 37,
+      "value": 22
+    },
+    "skipCooldown": {
+      "type": "toggle",
+      "title": "Instant back-to-back blinks",
+      "tooltip": "Quantum objects can move on every blink, even blinks less than half a second apart. Turn off to use the game's normal half-second wait between moves.",
+      "value": true
+    },
+    "debugLogging": {
+      "type": "toggle",
+      "title": "Debug logging",
+      "tooltip": "Log every blink and every quantum move to the mod console.",
+      "value": false
+    }
+  }
+}

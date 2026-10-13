@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "QuantumBlinkVR.dll",
+  "author": "Zra",
+  "name": "Quantum Blink VR",
+  "uniqueName": "Zra.QuantumBlinkVR",
+  "version": "0.1.0",
+  "owmlVersion": "2.15.1",
+  "dependencies": ["Raicuparta.NomaiVR"],
+  "warning": {
+    "title": "PSVR2 eye tracking required",
+    "body": "This mod needs a Playstation VR2 with a PC adapter and the lastest stable release of PSVR2 Toolkit; the recent experiemental builds will not work"
+  }
+}
