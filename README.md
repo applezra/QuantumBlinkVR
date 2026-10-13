@@ -8,7 +8,7 @@ QuantumBlinkVR is an add-on to NomaiVR that enables you to interact with quantum
 ## Requirements
 
 - Outer Wilds on PC
-- [NomaiVR](https://outerwildsmods.com/mods/nomaivr/) (the Mod Manager installs it automatically with this mod)
+- [NomaiVR](https://outerwildsmods.com/mods/nomaivr/)
 - A PlayStation VR2 headset connected to your PC and working in SteamVR (the official PC adapter or a third-party one)
 - [PSVR2Toolkit](https://github.com/BnuuySolutions/PSVR2Toolkit) with eye tracking working. Use the **latest stable release**: experimental builds may not share eye tracking data with other programs.
 
