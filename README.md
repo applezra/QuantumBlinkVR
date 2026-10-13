@@ -1,4 +1,5 @@
-<!-- Put your banner image here, at the very top. It becomes the thumbnail on the mod website and should be 3:1 (for example 1200x400). -->
+<img width="3900" height="1300" alt="Quantum Blink Icon" src="https://github.com/user-attachments/assets/e9c80aff-6bbc-4645-a37e-c22b4fdbc52b" />
+
 
 # QuantumBlinkVR
 
