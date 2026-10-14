@@ -4,7 +4,7 @@
 
 # QuantumBlinkVR
 
-QuantumBlinkVR is an add-on to NomaiVR that enables you to interact with quantum objects by closing your eyes. Currently only supporting the PSVR2 through PSVR2Toolkit, this mod reads eye tracking data and marks nearby quantum objects as not seen the moment you blink.
+QuantumBlinkVR is an add-on to NomaiVR that enables you to interact with quantum objects by closing your eyes. Currently only supporting the PSVR2 through PSVR2Toolkit, this mod reads eye tracking data which allows nearby quantum objects to move.
 
 ## Requirements
 
