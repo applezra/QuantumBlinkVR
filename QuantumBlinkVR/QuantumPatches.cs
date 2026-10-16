@@ -59,12 +59,12 @@ namespace QuantumBlinkVR
                 __instance.transform.rotation = __state;
         }
 
-        // 4. Skip the game's half-second wait between moves during blinks (if enabled).
+        // 4. Skip the game's half-second wait between moves during blinks.
         [HarmonyPrefix]
         [HarmonyPatch(typeof(QuantumObject), nameof(QuantumObject.Collapse))]
         public static void Collapse_Prefix(QuantumObject __instance)
         {
-            if (QuantumBlinkVR.SkipCooldown && QuantumBlinkVR.IsBlinking)
+            if (QuantumBlinkVR.IsBlinking)
                 __instance._lastCollapseTime = -1f;
         }
 

@@ -7,8 +7,9 @@
   "version": "0.1.0",
   "owmlVersion": "2.15.1",
   "dependencies": ["Raicuparta.NomaiVR"],
+  "conflicts": [ "Zra.QuantumBlink" ],
   "warning": {
     "title": "PSVR2 eye tracking required",
-    "body": "This mod needs a Playstation VR2 with a PC adapter and the lastest stable release of PSVR2 Toolkit; the recent experiemental builds will not work"
+    "body": "This mod needs a PlayStation VR2 with a PC adapter and the latest stable release of PSVR2 Toolkit; the recent experimental builds will not work"
   }
 }

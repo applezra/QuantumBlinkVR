@@ -18,14 +18,21 @@ QuantumBlinkVR is an add-on to NomaiVR that enables you to interact with quantum
 1. Install PSVR2Toolkit by following its own instructions.
 2. Install QuantumBlinkVR from the [Outer Wilds Mod Manager](https://outerwildsmods.com/mod-manager/).
 3. Start the game. The mod console should say **"Connected to PSVR2 eye tracking."**
+4. To check it's working, go to **Options > MODS > Quantum Blink VR > CALIBRATION** and blink. The line under the eyes counts every blink that registers.
 
 ## Settings
 
-You can change these in the mod's settings, in the Mod Manager or in the game's options menu.
+Find these in **Options > MODS > Quantum Blink VR**. You can also change them in the Mod Manager.
 
-- **Gaze blink cut-off:** Looking down can make the eye cameras see a blink that didn't happen. Increase it if real blinks get missed when you look down. Decrease it if looking down causes false blinks.
-- **Instant back-to-back blinks:** Quantum objects can move on every blink, even blinks less than half a second apart. Turn off to apply the game's normal half-second wait to blinks as well.
+**Settings tab**
+
+- **Blink mode:** In **Real-time** mode, every blink counts the moment it happens. In **Intentional** mode, a blink only counts when you keep your eyes closed for a moment, so normal blinking doesn't affect the game. Use Intentional if quantum objects move as you open your eyes.
 - **Debug logging:** Logs every blink and every quantum move to the mod console.
+
+**Calibration tab**
+
+- **Gaze blink cut-off:** Looking down can make the eye cameras see a blink that didn't happen. Increase it if real blinks get missed when you look down. Decrease it if looking down causes false blinks. When a blink is ignored because you were looking down, the Calibration tab says so.
+- **Intentional hold time:** How long you must keep your eyes closed in Intentional mode. Only shown in Intentional mode.
 
 ## Known limitations
 
@@ -37,7 +44,7 @@ You can change these in the mod's settings, in the Mod Manager or in the game's 
 
 ## Troubleshooting
 
-If the mod console says **"Could not connect to PSVR2 eye tracking"**, make sure SteamVR is running with your headset connected, and that you are using the latest stable PSVR2Toolkit release.
+If the mod console or the **CALIBRATION** tab says **"Could not connect to PSVR2 eye tracking"**, make sure SteamVR is running with your headset connected, and that you are using the latest stable PSVR2Toolkit release.
 
 ## Future plans
 
