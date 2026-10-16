@@ -1,5 +1,4 @@
-<img width="3900" height="1300" alt="Quantum Blink Logo" src="https://github.com/user-attachments/assets/74ce30dd-1ccd-400e-aef1-1401463a9f21" />
-
+<img width="3900" height="1300" alt="QuantumBlinkVR Logo" src="https://github.com/user-attachments/assets/7a60bd2e-9a96-4b22-98a3-1ae8ede9f53d" />
 
 
 # QuantumBlinkVR
